@@ -1,0 +1,2891 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*-----------------------------------------------------------Home page--------------------------------------------------------------------*/
+/*----------------------first-section-------------------------*/
+.first-section{
+    background-color:#F5C8B3;
+    width: 100%;
+    height: 750px;
+}
+
+.first-section .header{
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+.first-section .header .header-left{
+    display: flex;
+}
+
+.first-section .header .header-left .logo{
+    cursor: pointer;
+}
+
+.first-section .header .header-left .logo_title a{
+    color: rgb(211, 69, 69);
+    letter-spacing:0.5px ;
+}
+
+.first-section .header .header-left .logo_title a span{
+    color: rgb(134, 123, 123);
+}
+
+.first-section .header .header-left .first-child{
+    width: 110px;
+    height: 28px;
+    margin-top: 11px;
+    margin-left: 20px;
+    text-align: center;
+    color: #514245;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-decoration: none;
+
+}
+
+.first-section .header .header-right{
+    display: flex; 
+    margin-right: 30px;
+}
+
+.first-section .header .header-right .login_button{
+    width: 120px;
+    cursor: pointer;
+}
+
+.first-section .header .header-right .login_button,a{
+    margin-right: 15px;
+    text-decoration: none;
+    position: relative;
+    top: 2px;
+}
+
+
+.first-section .header .header-right .login_button{
+    margin-top: 7px;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+
+.first-section .header .header-right .joinUs{
+    width: 150px;
+    height: 40px;
+    background-color:#608F59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.first-section .header .header-right .login_button a{
+    color: #514245;
+    text-decoration: none;
+}
+
+.first-section .header .header-right .myAccount{
+    position:relative;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+}
+.first-section .header .header-right .myAccount a{
+    margin-left:8px;
+    color: #514245;
+    text-decoration:none;
+}
+
+.first-section .left-side {
+    margin-left: 140px;
+    margin-top: 120px;
+}
+
+.first-section .left-side img{
+    width: 500px;
+}
+
+.first-section .left-side .infos{
+    margin-top: 50px;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+
+.first-section .left-side .info{
+    display: flex;
+    align-content: center;
+}
+
+.first-section .left-side .info img{
+    width: 14px;
+    height: 10px;
+}
+
+.first-section .left-side .info p{
+    margin-left: 30px;
+    position: relative;
+    bottom: 2px;
+    font-weight: bold;
+    color: #514245;
+    font-size: 17px;
+}
+
+.first-section .left-side a{
+    background-color: #608F59;
+    color: white;
+    padding: 15px 40px;
+    font-weight: bold;
+    font-size: 18px;
+    height: 97px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.first-section .right-side img{
+    position: absolute;
+    right: 8%;
+    top: 136px;
+    width: 480px;
+    height: 614px;
+}
+
+/*----------------------second-section-------------------------*/
+.second-section{
+    margin-top: 80px;
+    position: relative;
+}
+
+.second-section h2{
+    text-align: center;
+    color: #514245;
+    margin-bottom: 50px;
+}
+
+.second-section .left-side {
+    margin-left: 20%;
+}
+
+.second-section .infos{
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+
+.second-section .infos img{
+    width: 55px;
+    height: 55px;
+}
+
+.second-section .infos h5{
+    color: #658F59;
+    font-weight: 700;
+    position: absolute;
+    left: 75px;
+    font-size: 17px;
+    top: 2px;
+}
+
+.second-section .infos p{
+    position: absolute;
+    left: 75px;
+    top: 25px;
+    width: 330px;
+    font-size: 13px;
+}
+
+.second-section .right-side,.left-side{
+    margin-bottom: 68px;
+}
+
+.second-section .right-side img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    position: absolute;
+    left: 58%;
+    top: 80px;
+}
+
+.second-section a{
+    background-color:#658F59;
+    padding: 6px 170px;
+    color: white;
+    font-size: 17px;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.second-section a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*----------------------third-section-------------------------*/
+
+.third-section {
+    margin-top: 30px;
+    position: relative;
+}
+
+.third-section .speciale{
+    width: 100%;
+    height: 300px;
+}
+
+.third-section .contenaire .row1,.row2{
+    display: flex;
+    position: absolute;
+    margin-left: 20%;
+
+}
+
+.third-section .contenaire .row1{
+    top:80px;
+}
+
+.third-section .contenaire .row2{
+    top: 150px;
+}
+
+.third-section .contenaire .infos{
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.third-section .contenaire .infos img{
+    width: 50px;
+    height: 50px;
+}
+
+.third-section .contenaire .infos h6{
+    width: 110px;
+    margin-left: 10px;
+}
+
+/*----------------------fourth-section-------------------------*/
+
+.fourth-section{
+    margin-top: 80px;
+}
+
+.fourth-section h2,.p-fourth{
+    text-align: center;
+    color: #514245;
+}
+
+.fourth-section .contenaire{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.fourth-section .contenaire .info{
+    width: 400px;
+}
+
+.fourth-section .contenaire .info img{
+    width: 230px;
+    height: 230px;
+    margin-left: 20%;
+}
+
+.fourth-section .contenaire .info h4,p{
+    text-align: center;
+    color: #514245;
+}
+
+.fourth-section .contenaire .info h4{
+    margin-top: 40px;
+}
+
+.fourth-section .contenaire .info p{
+    font-size: 14px;
+}
+
+/*----------------------fifth-section-------------------------*/
+
+.fifth-section {
+    margin-top: 50px;
+}
+
+.fifth-section h2{
+    text-align: center;
+    color: #514245;
+}
+
+.fifth-section .contenaire{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.fifth-section .contenaire img{
+    margin-left: 30px;
+    width: 370px;
+    height: 370px;
+    border-radius: 12px;
+}
+
+/*----------------------separateur-------------------------*/
+
+.separateur{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.separateur p{
+    border-bottom:1px solid #514245;
+    width: 85%;
+    margin: 10px auto;
+}
+
+/*----------------------sixth-section-------------------------*/
+
+.sixth-section {
+    margin-top: 60px;
+    position: relative;
+}
+
+.sixth-section .left-side{
+    margin-left: 10%;
+}
+
+.sixth-section .left-side img{
+    width: 220px;
+    margin-left: 10px;
+}
+
+.sixth-section .left-side form{
+    width: 600px;
+    margin-top: 20px;
+}
+
+.sixth-section .left-side form input{
+    border: 2.5px solid #CE8FE2;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.sixth-section .left-side form .inputEmail{
+    width: 294px;
+}
+
+.sixth-section .left-side form .inputSubject{
+    width: 500px;
+}
+
+.sixth-section .left-side form .inputMessage{
+    border: 2.5px solid #CE8FE2;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.sixth-section .left-side form .send{
+    position: relative;
+}
+
+.sixth-section .left-side form .send img{
+    width: 34px;
+    height: 24px;
+    position: absolute;
+    left:23px;
+    top: 17px;
+}
+
+.sixth-section .left-side form .send .inputSubmit{
+    color: #2D4C78;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 22px;
+    padding-left:65px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #EFC9FA;
+    border-color: #EFC9FA;
+    border-bottom: 4px solid #2D4C78;
+}
+
+.sixth-section .right-side img{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+}
+
+/*----------------------last-section-------------------------*/
+
+.last-section{
+    background-color:#FBDFD1 ;
+}
+
+.last-section .parags{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.last-section .parags .parag{
+    width: 250px;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.last-section .parags .first{
+    margin-right: 95px;
+}
+
+.last-section .parags .parag img{
+    width: 250px;
+}
+
+.last-section .parags .parag p{
+    margin-left: 20px;
+    width: 250px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+.last-section .parags .parag a{
+    margin-top: 12px;
+    font-size: 14px;
+    color: #514245;
+}
+
+.last-section .parags .parag h6{
+    margin-top: 15px;
+}
+
+.last-section .parags .parag h6,p{
+    color: #514245;
+}
+
+/*-----------------------------------------------------------SignUp page--------------------------------------------------------------------*/
+.SignUP_section{
+    background-color: #FDF4F0;
+    width: 100%;
+    height: 750px;
+}
+
+.SignUP_section .logo{
+    margin: 20px 40px;
+}
+
+.SignUP_section .contenaire{
+    background-color: white;
+    width: 50%;
+    padding: 30px;
+    border-bottom: 3px solid #BB9797;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.SignUP_section h4{
+    color: #608F59;
+    margin-left: 28px;
+}
+
+.SignUP_section form{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.SignUP_section form div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left:10px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(4, 0, 5, 0.5);
+    border-radius: 10px;
+}
+
+.SignUP_section form div p{
+    position: absolute;
+    top: -20px;
+    font-size: 13px;
+    color:red ;
+}
+
+.SignUP_section form div img{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+
+.SignUP_section form div input{
+    padding: 5px 10px;
+    height: 35px;
+    border: none;
+    width: 80%;
+    margin-left: 30px;
+    outline: none;
+}
+
+.SignUP_section form div select{
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.SignUP_section form .div_firstName,.div_lastName,.div_city,.div_date{
+    width: 48%;
+}
+
+.SignUP_section form .div_adress,.div_email,.div_password,.div_phone{
+    width: 98%;
+}
+
+.SignUP_section form .firstName::placeholder,.adress::placeholder,.email::placeholder,.password::placeholder,.phone::placeholder{
+    padding-left: 5px;
+    margin-left: 0px;
+}
+
+.SignUP_section .contenaire .down{
+    text-align: center;
+}
+
+.SignUP_section .contenaire .down a{
+    bottom: 7px;
+    color: black;
+    text-decoration: underline;
+}
+.SignUP_section .contenaire .down span{
+    position: relative;
+    top: 2px;
+}
+
+.SignUP_section .contenaire .envoyer{
+    background-color:#608F59;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 8px;
+    width: 98%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.alert{
+    width:49%;
+    text-align: left;
+    margin: 0px auto;
+}
+
+.number2{
+    width: 59%;
+    position: relative;
+    top: 20px;
+}
+
+/*-----------------------------------------------------------SignIn page--------------------------------------------------------------------*/
+
+.SignIn_section{
+    background-color: #FDF4F0;
+    width: 100%;
+    height: 750px;
+}
+
+.SignIn_section .logo{
+    margin: 30px 40px;
+}
+
+.SignIn_section .contenaire{
+    background-color: white;
+    width: 60%;
+    height: 450px;
+    border-bottom: 3px solid #BB9797;
+    border-radius: 30px;
+    margin: 3% auto;
+    display: flex;
+}
+
+.SignIn_section .contenaire .left-side img{
+    width: 420px;
+    height: 450px;
+    border-bottom: 3px solid #BB9797;
+    border-radius: 30px;
+}
+
+.SignIn_section .contenaire .right-side{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.SignIn_section h5{
+    color: #608F59;
+    margin-left: 28px;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.SignIn_section form{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.SignIn_section form .div_email,.div_password{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left:10px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(4, 0, 5, 0.5);
+    border-radius: 10px;
+}
+
+.SignIn_section form div img{
+    width: 24px;
+    height: 24px;
+    background-color: rgba(1, 240, 255, 0.5);
+    position: absolute;
+    left: 8px;
+    top: 6px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.SignIn_section form .div_email input,.div_password input{
+    padding: 5px 10px;
+    height: 35px;
+    border:none;
+    outline: none;
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.SignIn_section .contenaire .down{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 15px;
+    flex-direction: row;
+    position: relative;
+    margin-left:10px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius: 10px;
+}
+
+.SignIn_section .contenaire .down a{
+    color: black;
+    position: relative;
+    top: 8px;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: #608F59;
+    text-decoration: none;
+}
+
+.SignIn_section .contenaire .down a:hover{
+    text-decoration: underline;
+}
+
+.SignIn_section .contenaire .envoyer{
+    background-color:#608F59;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------------navbar--------------------------------------------------------------------*/
+
+.navbarr{
+    width: 20%;
+    height: 753px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.navbarr .logo_nav{
+    margin: 30px auto;
+    display: flex;
+    position: sticky;
+    top: 30px;
+}
+
+.navbarr nav{
+    margin-top: 120px;
+    width: 100%;
+    position: sticky;
+    top: 250px;
+}
+
+.navbarr nav ul li{
+    list-style-type: none;
+}
+
+.navbarr nav ul li div 
+.top{
+    border: 0.2px solid #FFD6BE;
+    width: 80%;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+}
+
+.navbarr nav ul li div 
+.down{
+    border: 0.2px solid #FFD6BE;
+    width: 80%;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+}
+
+.navbarr nav ul li div{
+    padding: 0px 29.5% ;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    height: 47px;
+    align-items: center;
+    position: relative;
+}
+
+.navbarr nav ul li div img{
+    background-color:#608F59;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.navbarr nav ul li div a{
+    color: rgba(81, 66, 69, 1);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 15px;
+    width: 200px;
+    text-decoration: none;
+}
+
+.right_side{
+    background-color: #FFD6BE;
+    width: 81%;
+    position: relative;
+    height: 753px;
+}
+
+.right_side img{
+    margin-left: 8%;
+}
+
+.right_side .content{
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+/*-----------------------------------------------------------account information--------------------------------------------------------------------*/
+
+.all{
+    display: flex;
+    background-color:#FFD6BE ;
+}
+
+.information{
+    width: 55%;
+    height: 450px;
+    margin: 5% auto;
+}
+
+
+.information .contenaire{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    margin: 10% auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 18px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px 4px rgba(44, 43, 43, 0.6);
+}
+
+.information .contenaire .partOne{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+    height: fit-content;
+}
+
+.information .contenaire .partOne img{
+    align-self: center;
+    position: relative;
+    bottom: 4.5px;
+    margin-left: 0px;
+}
+
+.information .contenaire .partOne h4{
+    font-family: sans-serif;
+    color: rgba(81, 66, 69, 1);
+    margin-left: 7px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.information .sous_contenaire{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.information .contenaire .part{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+}
+
+
+.information .contenaire .part h5{
+    color: rgb(148, 138, 141);
+    font-size: 13px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.information .contenaire .part p{
+    color: rgb(95, 69, 74);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.information .contenaire .button_edit{
+    width:100%;
+}
+
+.information .contenaire .button_edit .edit{
+    margin-left: 30px;
+    background-color: #608F59;
+    color: white;
+    height:fit-content;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.information .contenaire .separator{
+    width: 100%;
+    height: 1px;
+    background-color: #FFD6BE;
+}
+
+.information .contenaire .security{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.information .contenaire .security .parttwo{
+    width: 100%;
+    margin-left: 25px;
+    margin-top: -25px;
+    display: flex;
+    
+}
+
+.information .contenaire .security .parttwo h4{
+    font-family: sans-serif;
+    margin-left: 7px;
+    color: rgba(81, 66, 69, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.information .contenaire .security .parttwo img{
+    align-self: center;
+    position: relative;
+    bottom: 9px;
+    margin-left: 0px;
+}
+
+.information .contenaire .security .email,.password{
+    margin-left: 30px;
+    width: 42%;
+}
+
+.information .contenaire .security .password p{
+    margin-top: 8px;
+}
+
+/*------------------------------------------------------------modify information-------------------------------------------------------------------*/
+
+.modify_info {
+    width: 55%;
+    height: 355px;
+    margin: 10% auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(44, 43, 43, 0.6);
+
+}
+
+.modify_info .contenaire{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.modify_info .contenaire .title{
+    display: flex;
+    margin-left: 8px;
+}
+
+.modify_info .contenaire .title img{
+    position: relative;
+    top: 5px;
+    margin-left: 0px;
+}
+
+.modify_info .contenaire .title h4{
+    margin-left: 5px;
+}
+
+.modify_info .contenaire form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modify_info .contenaire form div{
+    margin-top: 13px;
+    border: none;
+    padding: 7px 10px;
+    border-radius:10px;
+    box-shadow: 2px 2px 4px rgba(44, 43, 43, 0.6);
+}
+
+.modify_info .contenaire form div img{
+    margin-left: 0px;
+}
+
+.modify_info .contenaire form .mod_firstName,.mod_lastName,.mod_city,.mod_date,.mod_phone,.mod_adress{
+    width: 49%;
+    display: flex;
+}
+
+
+.modify_info .contenaire form .mod_lastName,.mod_date{
+    margin-left: 4px;
+}
+
+.modify_info .contenaire form .adress::placeholder,.phone::placeholder{
+    padding-left: 8px;
+}
+
+.modify_info .contenaire input,select{
+    width: 98%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.modify_info .contenaire input ,select{
+    margin-left: 8px;
+}
+
+.modify_info .contenaire select{
+    padding-left: 6px;
+}
+
+.modify_info .contenaire form input::placeholder{
+    font-size: 14px;
+    color: rgba(77, 77, 77, 1);
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.modify_info .contenaire form .mod_phone,.mod_adress{
+    width: 99%;
+}
+
+.modify_info .contenaire form .envoyer{
+    background-color: #608F59;
+    width: fit-content;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: -1px;
+}
+
+/*--------------------------------------------------------------modify password---------------------------------------------------------------*/
+.modify_password {
+    width: 80%;
+    height: 290px;
+    margin: 14% 25%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(44, 43, 43, 0.6);
+}
+
+.modify_password .contenaire{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.modify_password .contenaire .title{
+    display: flex;
+    margin-left: 8px;
+}
+
+.modify_password .contenaire .title img{
+    position: relative;
+    top: 1px;
+    margin-left: 0px;
+}
+
+.modify_password .contenaire .title h4{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.modify_password .contenaire form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modify_password .contenaire form input{
+    margin-top: 13px;
+    width: 100%;
+    padding: 8px 5px;
+    border-radius:10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(44, 43, 43, 0.6);
+}
+
+.modify_password .contenaire form input::placeholder{
+    font-size: 14px;
+    color: rgba(77, 77, 77, 1);
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.modify_password .contenaire form .envoyer{
+    background-color: #608F59;
+    width: fit-content;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------------Box-----------------------------------------------------------------------*/
+.box{
+    width: 130%;
+    height: 700px;
+    margin: 5% auto;
+}
+
+.box .contenaire{
+    margin-left: 15%;
+    margin-top: -100px;
+}
+
+.box .contenaire h5{
+    color: rgba(81, 66, 69, 1);
+}
+
+.box .contenaire .top{
+    padding-top: 100px;
+}
+
+.box .contenaire .top .abbonnements form{
+    display: flex;
+}
+
+.box .contenaire .top .abbonnements .abbonnement{
+    width: 270px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius:50px ;
+    position: relative;
+    margin-right: 100px;
+}
+
+.box .contenaire .top .abbonnements .abbonnement input{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+.box .contenaire .top .abbonnements .abbonnement h5{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #111827;
+    letter-spacing: 1px;
+    
+}
+
+.box .contenaire .top .abbonnements .abbonnement .price{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgba(81, 66, 69, 1);
+}
+
+.box .contenaire .top .abbonnements .abbonnement .price span{
+    font-size: 14px;
+}
+
+.box .contenaire .top .abbonnements .abbonnement .info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.box .contenaire .top .abbonnements .abbonnement .info img{
+    margin-left: 0px;
+}
+
+.box .contenaire .top .abbonnements .abbonnement .info p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    text-align: left;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+    color: rgba(81, 66, 69, 1);
+}
+
+.box .contenaire .top .abbonnements .abbonnement .special{
+    font-size: 16px;
+    color: black;
+    position: relative;
+    top:5px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 250px;
+}
+
+.box .contenaire .top .input_follow{
+    padding: 10px 18px;
+    background-color: rgba(96, 143, 89, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.box .contenaire .top .abbonnements .two{
+    margin-left: 100px;
+}
+
+.box .contenaire .top .pourAbonnement{
+    color: rgba(81, 66, 69, 1);
+    font-size: 14px;
+    text-align: left;
+    width: 70%;
+    display: none;
+}
+
+.box .contenaire a{
+    color: white;
+    background-color: rgba(96, 143, 89, 1);
+    padding: 7px 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.box .contenaire .down{
+    padding-top: 35px;
+}
+
+.box .contenaire .down table .date_col,.city_col,.price_col{
+    width: 150px;
+    text-align: center;
+}
+
+.box .contenaire .down table{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(100, 97, 97, 0.6);
+}
+
+.box .contenaire .down table td{
+    border-top: 1px dotted black;
+    border-right: 1px solid black;
+    color: rgba(81, 66, 69, 1);
+    padding: 3px;
+}
+
+.box .contenaire .down table th{
+    border-right: 1px solid black;
+    color: rgba(81, 66, 69, 1);
+    font-size: 14px;
+    padding: 3px;
+}
+
+.box .contenaire .down table .price_col{
+    border-right:none;
+}
+
+.box .contenaire .down table .adress_col{
+    width: 270px;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------support-------------------------------------------------------------------*/
+
+.support {
+    margin-top: 10%;
+    position: relative;
+    width: 170%;
+    height: 480px;
+    padding-top: 20px;
+}
+
+.support .left-side{
+    margin-left: 5%;
+}
+
+.support .left-side img{
+    width: 220px;
+    margin-left: 10px;
+}
+
+.support .left-side form{
+    width: 600px;
+    margin-top: 20px;
+}
+
+.support .left-side form input{
+    border: none;
+    box-shadow: 2px 2px 4px rgba(100, 97, 97, 0.6);
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 8px;
+}
+
+.support .left-side form input::placeholder{
+    color: rgba(81, 66, 69, 1);
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.support .left-side form .inputEmail{
+    width: 294px;
+}
+
+.support .left-side form .inputSubject{
+    width: 500px;
+}
+
+.support .left-side form .inputMessage{
+    box-shadow: 2px 2px 4px rgba(100, 97, 97, 0.6);
+    border: none;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.support .left-side form .inputMessage::placeholder{
+    color: rgba(81, 66, 69, 1);
+    font-weight:500;
+    padding-left: 5px;
+}
+
+.support .left-side form .send{
+    position: relative;
+    margin-top: 5px;
+}
+
+.support .left-side form .send img{
+    width: 34px;
+    height: 24px;
+    position: absolute;
+    left:23px;
+    top: 17px;
+    color: white;
+}
+
+.support .left-side form .send .inputSubmit{
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color:#608F59;
+    padding: 6px 20px;
+}
+
+.support .right-side img{
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+
+/*--------------------------------------------------------------support-------------------------------------------------------------------------*/
+.forgot_body{
+    background-color: #f0cbb7;
+}
+
+.forgot_password{
+    width: 40%;
+    height: 250px;
+    margin: 12% auto;
+    background-color: white;
+    border-radius: 18px;
+    position: relative;
+}
+
+.forgot_password h5{
+    text-align: center;
+    padding-top: 12px;
+}
+
+.forgot_password .info{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.forgot_password .separateur{
+    border: 1px solid rgb(214, 211, 211);
+    margin-top: 8px;
+}
+
+.forgot_password input{
+    margin: 10% auto;
+    width: 93%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 10px;
+    border:2px solid rgb(197, 186, 186);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.forgot_password .submit_input{
+    border-radius: 2px;
+    background-color: #608F59;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+
+.alert_email{
+    position: relative;
+    top: 170px;
+    width: 40%;
+}
+/*--------------------------------------------------------------change password------------------------------------------------------------*/
+.forgot_body{
+    background-color: #f0cbb7;
+}
+
+.change_password{
+    width: 30%;
+    height: 250px;
+    margin: 12% auto;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+}
+
+.change_password div{
+    top: -18%;
+    margin-left: 39%;
+    background-color: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.change_password div img{
+    position: absolute;
+    top: -15%;
+    display: flex;
+    align-self: center;
+    margin-top:25px;
+}
+
+.change_password h4{
+    text-align: center;
+    padding-top: 80px;
+    color: #514245;
+}
+
+.change_password form{
+    margin-top: 20px;
+}
+
+.change_password input{
+    margin: 8% auto;
+    width: 93%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 10px;
+    border:2px solid rgb(197, 186, 186);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.change_password .submit_input{
+    border-radius: 2px;
+    background-color: #608F59;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.alert_email{
+    position: relative;
+    top: 170px;
+    width: 40%;
+}
+
+.number1{
+    width:30%;
+    position: relative;
+    top: 130px;
+}
+
+/*----------------------------------------------------------admin nav-----------------------------------------------------------------------*/
+.contenaire-admin{
+    display: flex;
+} 
+.contenaire-admin .admin_nav{
+    width: 18%;
+    background-color: #111827;
+    height: 753px;
+    position: sticky;
+    top: 0px;
+}
+
+.contenaire-admin .admin_nav .admin_name{
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 5px 20px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.contenaire-admin .admin_nav .admin_name p{
+    color: white;
+    font-size: 20px;
+    color: rgba(16, 185, 129, 1);
+    margin: 0px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.contenaire-admin .admin_nav ul{
+    padding-top: 60%;
+    width: 95%;
+    height: 100%;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.contenaire-admin .admin_nav ul li{
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.contenaire-admin .admin_nav ul li div .image{
+    margin-right: 4px;
+}
+
+.contenaire-admin .admin_nav ul li div a{
+    color: white;
+    font-size: 16px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+    word-spacing: 1px;
+}
+
+.contenaire-admin .admin_nav ul li div .icon_dashboard{
+    margin-left: 5px;
+}
+
+.contenaire-admin .right-content{
+    width: 82%;
+}
+
+/*--------------------------------------------------------------Dashboard-----------------------------------------------------------------*/
+.all-parts{
+    width: 100%;
+    height: 1300px;
+    background-color: #F3F4F6;
+}
+
+.all-parts .first-part{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.all-parts .first-part .box{
+    width: 23%;
+    height: 150px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.all-parts .first-part .box .box-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    position: relative;
+    right: 10px;
+}
+
+.all-parts .first-part .box img{
+    margin-top: 30px;
+    position: relative;
+    left: 10px;
+}
+
+.all-parts .first-part .box .box-info p{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(17, 24, 39, 1);
+}
+
+.all-parts .first-part .box .box-info .title{
+    font-size: 10px;
+    color: rgba(107, 114, 128, 1);
+    margin: 0px;
+    font-weight: 500;
+}
+
+.all-parts .second-part{
+    display: flex;
+}
+
+.all-parts .second-part .diagram{
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 14px;
+    border-radius: 5px;
+}
+
+.all-parts .second-part .circle{
+    width: 26%;
+    height: 500px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.all-parts .third-part{
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-parts h6{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #E6E8F0;
+    margin-bottom: 0px;
+    font-size: 16px;
+    word-spacing: 1px;
+}
+
+.all-parts .third-part .orders-table{
+    width: 98%;
+    height: 550px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+
+.all-parts .third-part .orders-table th{
+    width: 212px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    background-color: #eaecf0;
+}
+
+.all-parts .third-part .orders-table td{
+    width: 212px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid #E6E8F0;
+}
+
+/*----------------------------------------------------------Customers----------------------------------------------------*/
+.customers {
+    width: 100%;
+    background-color: #F3F4F6;
+    height: 753px;
+    padding-top: 30px;
+}
+
+.customers .content{
+    width: 100%;
+}
+
+.customers .first_search{
+    border:2px solid rgba(22, 101, 216, 1);
+    width: 600px;
+    height: 35px;
+    border-radius:8px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+.customers .first_search form{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.customers .first_search form select{
+    width: 160px;
+    border-left: 2px solid rgba(240, 223, 223, 1);
+    position: relative;
+    right: 2px;
+    left: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+.customers .first_search form .motCle{
+    border: none;
+    padding: 3px;
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.customers .first_search form img{
+    position: absolute;
+    right: 0px;
+    transform: translate(-3px,4px);
+    cursor: pointer;
+}
+
+.customers .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.customers .first_search .search_input{
+    border: none;
+    padding: 3px;
+    width: 65%;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.customers .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.customers .second_search{
+    display: flex;
+    margin-left:10px ;
+    position: relative;
+    top: 12px;
+    margin-top: 20px;
+}
+
+.customers .second_search div{
+    padding: 10px 12px;
+    border-radius: 7px;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.customers .second_search div a{
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+.customers .content table{
+    width: 98%;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+
+.customers .content table th{
+    width:180px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.customers .content table td{
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid #E6E8F0;
+    text-align: center;
+}
+
+/*----------------------------------------------------------Suppliers----------------------------------------------------------*/
+.suppliers{
+    background-color: rgb(242, 242, 252);
+    padding: 20px;
+    height: 753px;
+    display: flex;
+}
+
+.suppliers .left-side{
+    background-color: white;
+    width: 60%;
+    padding-top:20px;
+    border-radius: 15px;
+    height: 715px;
+}
+
+.suppliers .first_search{
+    border:2px solid rgba(22, 101, 216, 1);
+    width: 90%;
+    height: 35px;
+    border-radius:8px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+.suppliers .first_search form{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.suppliers .first_search form select{
+    width: 28%;
+    border-left: 2px solid rgba(240, 223, 223, 1);
+    position: relative;
+    right: 2px;
+    left: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+.suppliers .first_search form .motCle{
+    border: none;
+    padding: 3px;
+    width: 65%;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.suppliers .first_search form img{
+    position: absolute;
+    right: 0px;
+    transform: translate(-3px,4px);
+    cursor: pointer;
+}
+
+.suppliers .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.suppliers .first_search .search_input{
+    border: none;
+    padding: 3px;
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.suppliers .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.suppliers .config-supplier{
+    width: 100%;
+}
+
+.suppliers .config-supplier .title{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.suppliers .config-supplier .title img{
+    position: relative;
+    bottom: 5px;
+}
+
+.suppliers .config-supplier .title h4{
+    margin-left: 4px;
+}
+
+.suppliers .config-supplier form div input{
+    border: none;
+}
+
+.suppliers .config-supplier form{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.suppliers .config-supplier form .input{
+    box-shadow: 2px 2px 4px rgba(146, 143, 143, 0.6);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.suppliers .config-supplier form .name,.phone{
+    width: 49%;
+    margin-top: 5px;
+}
+
+.suppliers .config-supplier form .phone{
+    margin-left: 2%;
+}
+
+.suppliers .config-supplier form .adress,.email{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.suppliers .config-supplier form div input{
+    padding: 4px;
+    background-color: transparent;
+    outline: none;
+    width: 88%;
+}
+
+.suppliers .config-supplier form div input::placeholder{
+    color: black;
+}
+
+.suppliers .config-supplier form .buttons_suppliers{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.suppliers .config-supplier form .buttons_suppliers input{
+    background-color:#608F59;
+    padding: 5px 15px;
+    color: white;
+    font-size: 17px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.suppliers .info_suppliers{
+    overflow-y: scroll;
+    margin-top: 25px;
+    max-height: 350px;
+}
+
+.suppliers .info_suppliers table{
+    width: 100%;
+    background-color: white;
+}
+
+.suppliers .info_suppliers table .ligne{
+    height: 30px;
+}
+
+.suppliers .info_suppliers table th{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    height: 30px;
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.suppliers .info_suppliers table td{
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid #E6E8F0;
+    text-align: center;
+}
+
+.suppliers .info_suppliers table td div{
+    position: relative;
+    bottom: 5px;
+}
+
+.suppliers .info_suppliers table td div a{
+    color: white;
+    text-decoration: none;
+}
+
+.suppliers .info_suppliers table td .config{
+    display: flex;
+    flex-direction: column;
+}
+
+.suppliers .info_suppliers table td .config .products{
+    background-color: rgb(76, 214, 76);
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.suppliers .info_suppliers table td .config .update{
+    background-color: rgb(217, 67, 67);
+    padding: 3px 17px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.suppliers .right-side{
+    background-color: white;
+    width: 39%;
+    border-radius: 15px;
+    height: 715px;
+    margin-left: 20px;
+}
+
+.suppliers .right-side .product{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(232, 229, 229);
+    padding: 5px;
+}
+
+.suppliers .right-side .product .product-info{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.suppliers .right-side .product img{
+    margin-left: 20px;
+}
+
+.suppliers .right-side .product .product-info .product-title{
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.suppliers .right-side .product .product-info .product-title p{
+    text-align: left;
+    color: black;
+}
+
+.suppliers .right-side .product .product-info .product-price{
+    text-align: right;
+    position: absolute;
+    color: black;
+    top: 20px;
+    right: 20px;
+}
+
+.suppliers .right-side .product .product-info input{
+    padding: 2px 5px;
+}
+
+.suppliers .right-side .product .product-info .commander a{
+    background-color: #608F59;
+    color: white;
+    cursor: pointer;
+    height: 32px;
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    text-decoration: none;
+}
+
+.suppliers .right-side .product .product-info .commander{
+    position: absolute;
+    right: 10px;
+    top:60px;
+    display: flex;
+    width: 245px;
+    margin-left: 20px;
+}
+
+
+.suppliers .right-side .product .product-info .commander label{
+    margin-right: 3px;
+}
+
+.suppliers .right-side .product .product-info a{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}
+
+.suppliers .alert{
+    width:95% ;
+}
+
+/*----------------------------------------------------------admins----------------------------------------------------------*/
+.admins{
+    background-color: rgb(242, 242, 252);
+    padding: 20px;
+    height: 753px;
+    display: flex;
+}
+
+.admins .left-side{
+    background-color: white;
+    width: 80%;
+    padding-top:20px;
+    border-radius: 15px;
+    height: 715px;
+    margin: 0 auto;
+}
+
+.admins .first_search{
+    border:2px solid rgba(22, 101, 216, 1);
+    width: 600px;
+    height: 35px;
+    border-radius:8px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+.admins .first_search form{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.admins .first_search form select{
+    width: 160px;
+    border-left: 2px solid rgba(240, 223, 223, 1);
+    position: relative;
+    right: 2px;
+    left: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+.admins .first_search form .motCle{
+    border: none;
+    padding: 3px;
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.admins .first_search form img{
+    position: absolute;
+    right: 0px;
+    transform: translate(-3px,4px);
+    cursor: pointer;
+}
+
+.admins .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.admins .first_search .search_input{
+    border: none;
+    padding: 3px;
+    width: 65%;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.admins .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.admins .config-supplier{
+    width: 100%;
+}
+
+.admins .config-supplier .title{
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.admins .config-supplier .title img{
+    position: relative;
+    bottom: 5px;
+}
+
+.admins .config-supplier .title h4{
+    margin-left: 4px;
+}
+
+.admins .config-supplier form div input{
+    border: none;
+    cursor: pointer;
+}
+
+.admins .config-supplier form{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.admins .config-supplier form .admin_image{
+    position: absolute;
+    left: -40%;
+    top: 30px;
+    width: 170px;
+}
+
+.admins .config-supplier form .admin_image input{
+    cursor: pointer;
+    color: transparent;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.admins .config-supplier form .input{
+    box-shadow: 2px 2px 4px rgba(146, 143, 143, 0.6);
+    border-radius: 10px;
+    padding: 4px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.admins .config-supplier form .firstname,.admins .config-supplier form .lastname{
+    width: 49.5%;
+}
+
+.admins .config-supplier form .lastname{
+    margin-left: 1%;
+}
+
+.admins .config-supplier form .password{
+    margin-left: 0px;
+}
+
+.admins .config-supplier form div input{
+    padding: 4px;
+    background-color: transparent;
+    outline: none;
+    width: 88%;
+    cursor: text;
+}
+
+.admins .config-supplier form div input::placeholder{
+    color: black;
+}
+
+.admins .config-supplier form .buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.admins .config-supplier form .buttons input{
+    background-color:rgba(22, 101, 216, 1);
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.admins .info_suppliers{
+    overflow-y: scroll;
+    margin-top: 25px;
+    max-height: 250px;
+}
+
+.admins .info_suppliers table{
+    width: 100%;
+    background-color: white;
+}
+
+.admins .info_suppliers table .ligne{
+    height: 30px;
+}
+
+.admins .info_suppliers table th{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    height: 30px;
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.admins .info_suppliers table td{
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid #E6E8F0;
+    text-align: center;
+}
+
+.admins .info_suppliers table td div{
+    position: relative;
+    bottom: 5px;
+}
+
+.admins .info_suppliers table td div a{
+    color: white;
+    text-decoration: none;
+}
+
+.admins .info_suppliers table td div .update{
+    background-color: rgb(217, 67, 67);
+    padding: 3px 17px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.admins .alert{
+    width:95% ;
+}
+
+/*------------------------------------------------------------admin_boxes--------------------------------------------------------*/
+.admins_box{
+    display: block;
+    background-color: rgb(242, 242, 252);
+    padding-top: 20px;
+    height: 753px;
+}
+
+.admins_box .top-side{
+    height: 60px;
+    width: 99%;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+.admins_box .top-side .config-boxes{
+    padding-top: 10px;
+    height: 100%;
+}
+
+.admins_box .top-side .config-boxes form{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.admins_box .top-side .config-boxes form div{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.admins_box .top-side .config-boxes form div label{
+    margin: 0px;
+}
+
+.admins_box .top-side .config-boxes form div input{
+    width: 70px;
+    height: 40px;
+    border: none;
+    margin-left: 2px;
+    box-shadow: 2px 2px 4px rgba(146, 143, 143, 0.6);
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+
+.admins_box .top-side .config-boxes .make{
+    margin-left: 20px;
+    position: absolute;
+    right:20px;
+    background-color:rgba(22, 101, 216, 1);
+    padding: 8px 8px ;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    text-decoration: none;
+}
+
+.admins_box .down_side{
+    display: flex;
+    height: 600px;
+}
+
+.admins_box .left-side{
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    height: 640px;
+    margin-left: 10px;
+}
+
+.admins_box .left-side .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-bottom: 2px solid rgb(232, 231, 231);
+}
+
+.admins_box .left-side .top p{
+    color: black;
+}
+
+.admins_box .left-side .top a{
+    background-color:rgba(22, 101, 216, 1);
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.admins_box .left-side h4{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.admins_box .right-side{
+    background-color: white;
+    width: 53%;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 640px;
+}
+
+.admins_box .right-side .width input{
+    width: 430px;
+}
+
+.admins_box  .product{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(232, 229, 229);
+    padding: 5px;
+}
+
+.admins_box .product .product-info{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.admins_box  .product img{
+    margin-left: 20px;
+}
+
+.admins_box .product .product-info .product-title{
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+.admins_box .product .product-info .product-title p{
+    text-align: left;
+    color: black;
+}
+
+.admins_box .product .product-info .product-price{
+    text-align: right;
+    position: absolute;
+    color: black;
+    top: 20px;
+    right: 20px;
+}
+
+.admins_box .right-side .product .product-info input{
+    padding: 2px 5px;
+}
+
+.admins_box .right-side .product .product-info .commander a{
+    background-color: #608F59;
+    color: white;
+    cursor: pointer;
+    height: 32px;
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    text-decoration: none;
+}
+
+.admins_box .right-side .product .product-info .commander{
+    position: absolute;
+    right: 10px;
+    top:60px;
+    display: flex;
+    width: 245px;
+    margin-left: 20px;
+}
+
+.admins_box .right-side .product .product-info a{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}
+
+.admins_box .right-side .product .product-info .moin_plus{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}
+
+.admins_box .right-side .product .product-info .moin_plus .moin,.plus{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+/*-------------------------------------------------------------stock-------------------------------------------------------------*/
+.stock{
+    background-color: rgb(242, 242, 252);
+    padding: 20px;
+    height: 753px;
+    display: flex;
+}
+
+.stock .left-side{
+    background-color: white;
+    width: 80%;
+    padding-top:20px;
+    border-radius: 15px;
+    height: 715px;
+    margin: 0 auto;
+}
+
+
+.stock .first_search{
+    border:2px solid rgba(22, 101, 216, 1);
+    width: 600px;
+    height: 35px;
+    border-radius:8px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+.stock .first_search form{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.stock .first_search form select{
+    width: 160px;
+    border-left: 2px solid rgba(240, 223, 223, 1);
+    position: relative;
+    right: 2px;
+    left: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+.stock .first_search form .motCle{
+    border: none;
+    padding: 3px;
+    width: 450px;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.stock .first_search form img{
+    position: absolute;
+    right: 0px;
+    transform: translate(-3px,4px);
+    cursor: pointer;
+}
+
+.stock .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.stock .first_search .search_input{
+    border: none;
+    padding: 3px;
+    width: 65%;
+    margin-left: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.stock .first_search .search_submit{
+    background-color: rgba(22, 101, 216, 1);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-left: 5px;
+    transform: translate(1px,-2px);
+    width: 34px;
+    height: 34px;
+    color: transparent;
+    border:none;
+}
+
+.stock .config-supplier{
+    width: 100%;
+}
+
+.stock .config-supplier .title{
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.stock .config-supplier .title img{
+    position: relative;
+    bottom: 5px;
+}
+
+.stock .config-supplier .title h4{
+    margin-left: 4px;
+}
+
+.stock .config-supplier form .input input,select{
+    border: none;
+    box-shadow: 2px 2px 4px rgba(146, 143, 143, 0.6);
+    border-radius: 10px;
+}
+
+.stock .config-supplier form .input select{
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(146, 143, 143, 0.6);
+    border-radius: 10px;
+}
+
+.stock .config-supplier form{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.stock .config-supplier form .admin_image{
+    position: absolute;
+    left: -40%;
+    top: 10px;
+    width: 170px;
+}
+
+.stock .config-supplier form .admin_image input{
+    cursor: pointer;
+    color: transparent;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 0px;
+}
+
+.stock .config-supplier form .input{
+    padding: 4px;
+    width: 100%;
+    margin-top: 5px;
+    display:flex;
+}
+
+.stock .config-supplier form .input label{
+    width: 150px;
+}
+
+.stock .config-supplier form .password{
+    margin-left: 0px;
+}
+
+.stock .config-supplier form div input,select{
+    padding: 4px;
+    background-color: white;
+    outline: none;
+    width: 80%;
+}
+
+.stock .config-supplier form div input::placeholder{
+    color: black;
+}
+
+.stock .config-supplier form .buttons_suppliers{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.stock .config-supplier form .buttons_suppliers input{
+    background-color:rgba(22, 101, 216, 1);
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.stock .info_suppliers{
+    overflow-y: scroll;
+    margin-top: 25px;
+    max-height: 350px;
+}
+
+.stock .info_suppliers table{
+    width: 100%;
+    background-color: white;
+}
+
+.stock .info_suppliers table .ligne{
+    height: 30px;
+}
+
+.stock .info_suppliers table th{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    height: 30px;
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.stock .info_suppliers table td{
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid #E6E8F0;
+    text-align: center;
+}
+
+.stock .info_suppliers table td div{
+    position: relative;
+    bottom: 5px;
+}
+
+.stock .info_suppliers table td div a{
+    color: white;
+    text-decoration: none;
+}
+
+.stock .config-supplier form .buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.stock .config-supplier form .buttons input{
+    background-color:rgba(22, 101, 216, 1);
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.stock .info_suppliers table td .config{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.stock .info_suppliers table td .config .update{
+    background-color: rgb(217, 67, 67);
+    padding: 3px 12px;
+    border-radius: 5px;
+    position: relative;
+    width: 100px;
+    top: 10px;
+}
+
+.stock .alert{
+    width:95% ;
+}
